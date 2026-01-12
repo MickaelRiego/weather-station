@@ -89,8 +89,8 @@ DhtData readDHT11(int pin) {
   // verif checksum
   // somme 4 premiers octets doit être égale au 5ème
   if (data[4] == ((data[0] + data[1] + data[2] + data[3]) & 0xFF)) { // 0xFF force a être un octect la somme
-    result.humidite = (float)data[0];
-    result.temperature = (float)data[2];
+    result.humidite = (float)data[0] + (float)data[1] / 10.0f;
+    result.temperature = (float)data[2] + (float)data[3] / 10.0f; // On divise par 10 car dht11 envoie sous forme d'entier la decimal
     result.isValid = true;
   } else {
     result.isValid = false;
