@@ -43,3 +43,6 @@ Une validation par somme de contrôle est effectuée à chaque lecture. Le progr
 1. Connecter le capteur DHT11 à la broche 14 de l'ESP32.
 2. Compiler et téléverser le code via PlatformIO.
 3. Ouvrir le moniteur série à une vitesse de 9600 bauds pour visualiser les mesures.
+
+## Travail sur affichage sur écran e-ink
+https://www.waveshare.com/w/upload/7/77/1.54inch_e-Paper_Datasheet.pdf?srsltid=AfmBOopG8CxWWoCqWxTgIcdSl8F6E3AAnUci6lZO3Pe4QD5E7xlGouz7

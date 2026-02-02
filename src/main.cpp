@@ -98,3 +98,12 @@ DhtData readDHT11(int pin) {
 
   return result;
 }
+
+void sendCommande(uint8_t commande)  {
+  pinMode(32, OUTPUT);
+  digitalWrite(32, LOW);
+  pinMode(35, OUTPUT);
+  digitalWrite(35,LOW);
+
+    
+}
