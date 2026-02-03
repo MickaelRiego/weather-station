@@ -45,7 +45,7 @@ Avant de coder, il faut comprendre comment l'ESP32 parle à l'écran.
 **BUSY** : PIN 25
 **RST** : PIN 33
 **DC** : PIN 32
-**CS** : PIN 35
+**CS** : PIN 26
 
 
 
